@@ -1,0 +1,34 @@
+const venom = require('venom-bot');
+
+venom
+  .create()
+  .then((client) => start(client))
+  .catch((erro) => {
+    console.log(erro);
+  });
+
+function start(client) {
+  let count=0;
+  
+  client.onMessage((message) => {
+    for(count; count < 1; count++){
+    if (message.body && message.isGroupMsg === false) {
+      client
+        .sendText(message.from, 'Bienvenido al paisa!')
+        .then((result) => {
+          console.log('Result: ', result); //return object success
+        })
+        .catch((erro) => {
+          console.error('Error when sending: ', erro); //return object error
+        });
+      console.log(count);
+    }
+  } 
+      if(count = 1){
+        var menu = '';
+
+      };
+
+    }
+  );
+}

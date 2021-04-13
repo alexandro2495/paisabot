@@ -1,0 +1,32 @@
+
+      /*do{
+      switch(message.body){
+        case '1':
+           ordenfinal = bon1;
+        break;
+        case '2':
+          bon2 = ordenfinal;
+        break;
+        case '3':
+          bon3 = ordenfinal;
+        break;
+        case '4':
+          bon4 = ordenfinal;
+        break;
+        case '5':
+          bon5 = ordenfinal;
+        break;
+        case '6':
+          bonesp1 = ordenfinal;
+        break;
+        case '7':
+          bonesp2 = ordenfinal;
+        break;
+        case '8':
+          bonesp3 = ordenfinal;
+        break;
+        case '9':
+          bonesp4 = ordenfinal;
+        break;
+      }
+    }while(opvalidar == true);*/
